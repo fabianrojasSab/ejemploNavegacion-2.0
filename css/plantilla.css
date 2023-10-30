@@ -1,0 +1,35 @@
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+
+#contenedor{
+	width: 100vw;
+	height: 90vh;
+}	
+
+#pie{
+	height: 60px;
+	background-color: var(--c3);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#pie>button{
+	display: inline-block;
+	width: 10%;
+	float: left;
+	margin: 0 5px;
+}
+
+#pie>select{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	margin: 0 5px;
+
+}
+

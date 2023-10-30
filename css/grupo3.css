@@ -1,0 +1,46 @@
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+/*----------columnas-------------------------------------*/
+#col1-g3{
+	background-color: var(--c1); 
+	text-align:center;
+}
+#col2-g3{
+	background-color: var(--c2);
+}
+#col3-g3{
+	background-color: var(--c4);
+}
+#col4-g3{
+	background-color: var(--c3);
+}
+#col5-g3{
+	height: 10%;
+	width: 97%;
+	margin: auto;
+	background-color: var(--c5);
+}
+/*------rows-------------------------------------*/
+#row1-g3{
+	height: 10%;
+}
+#row2-g3{
+	height: 80%;
+}
+/* para colocarle alguna de estas propiedades a los botones
+#selector{
+	width: 150px;
+	display: inline-block;
+	font-weight: bold;
+}
+.btn{
+	display: inline-block;
+	margin: 3px;
+	width: 100px;
+	font-weight: bold;
+}*/

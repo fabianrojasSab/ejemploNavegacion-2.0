@@ -1,0 +1,48 @@
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+/*--------------rows------------*/
+#row1-g8{
+ 	height: 20%;
+ }
+#row2-g8{
+ 	height: 20%;
+ }
+#row3-g8{
+ 	height: 50%;
+ }
+#row4-g8{
+ 	height: 50%;
+ }
+#contenedor-g8{
+	height: 60%;
+}
+/*---------------columnas---------*/
+#col1-g8{
+	background: var(--c5);
+}
+#col2-g8{
+	background: var(--c4);
+}
+#col3-g8{
+	background: var(--c5);
+}
+#col4-g8{
+	background: var(--c4);
+}
+#col5-g8{
+	background: var(--c5);
+}
+#col6-g8{
+	background: var(--c4);
+}
+#col7-g8{
+	background: var(--c5);
+}
+#col8-g8{
+	background: var(--c4);
+}

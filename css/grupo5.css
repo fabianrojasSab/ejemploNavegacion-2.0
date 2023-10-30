@@ -1,0 +1,64 @@
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+/*--------rows--------------*/
+#row1-g5{
+	height: 10%;
+	background-color: var(--c2) ;
+	text-align: center;
+}
+
+#row2-g5{
+	height: 10%;
+	background-color:var(--c3) ;
+}
+#row3-g5{
+	height:100%;
+	background-color: var(--c1);
+	padding: 1%;
+}
+
+#row4-g5{
+	height: 10%;
+	background-color:var(--c5);
+	padding: 1%
+}
+
+#contenedor-g5{
+	height: 70%;
+	background-color:var(--c4) ;
+}
+
+/*--------columnas---------------------------*/
+
+#col2-g5{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#col3-g5{
+	background-color: var(--c2) ;
+	padding: 2%;
+	border: 3px;
+	border-color: var(--c4);
+	border-style: solid;
+}
+
+#col4-g5{
+	background-color:var(--c1) ;
+	padding: 2%;
+	border: 3px;
+	border-style: solid;
+	border-color: var(--c4);
+}
+#col5-g5{
+	background-color:var(--c2) ;
+	padding: 2%;
+	border: 3px;
+	border-style: solid;
+	border-color: var(--c4);
+}

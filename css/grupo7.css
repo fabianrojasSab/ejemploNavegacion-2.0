@@ -1,0 +1,66 @@
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+#lateral{
+	height:600px;
+	width: 510px;
+	background-color: var(--c1);
+	float: left;
+}
+
+#fila1{
+	background-color: var(--c2);
+	height:110px;
+
+}
+
+#fila2{
+	background-color: var(--c3);
+	height:200px;
+	position: relative;
+	margin-left: 7px;
+	
+}
+
+#fila3{
+	background-color: var(--c4);
+	height:150px;
+	
+}
+
+#fila4{
+	background-color: var(--c5);
+	height:140px;
+	
+}
+#container{
+	max-width: 1980px;
+
+}
+
+#dos, #cuatro{
+	background-color: var(--c1);;
+}
+
+#segundo{
+	background-color: var(--c2);
+}
+
+#numero1{
+	background-color: var(--c3)
+}
+
+#selector{
+	float: left;
+}
+#primero2, #siguiente{
+	background-color: var(--c6)
+}
+
+#botones{
+margin: 6px
+}

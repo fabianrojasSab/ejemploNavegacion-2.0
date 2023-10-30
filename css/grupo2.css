@@ -1,0 +1,66 @@
+/*formato colores*/
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+/*----------- columnas ---------*/
+#col1-g2{
+	background-color: var(--c1);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#col2-g2{
+	background-color: var(--c2);
+}
+#col3-g2{
+	background-color: var(--c3);
+}
+#col4-g2{
+	background-color: var(--c1);
+}
+#col5-g2{
+	background-color: var(--c3);
+}
+#col6-g2{
+	background-color: var(--c1);
+}
+#col7-g2{
+	background-color: var(--c1);
+}
+#col8-g2{
+	background-color: var(--c4);
+}
+#col9-g2{
+	background-color: var(--c1);
+}
+#col10-g2{
+	background-color: var(--c4);
+}
+/*-----------------------------rows--------*/
+#row1-g2{
+	height: 15%;
+}
+#row2-g2{
+	height: 15%;
+}
+#row3-g2{
+	height: 50%;
+}
+#row4-g2{
+	height: 50%;
+}
+/*-----------contenedor-------*/
+#contenedor-g2{
+	height: 70%;
+}
+#fila1texto, #fila2texto, #fila3texto, #fila4texto, #fila5texto{
+	color: #ffffff;
+}
+
+
+
